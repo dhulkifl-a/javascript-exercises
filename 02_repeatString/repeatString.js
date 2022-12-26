@@ -1,4 +1,6 @@
 const repeatString = function(string, num) {
+let newString = '';
+
 
 };
 
