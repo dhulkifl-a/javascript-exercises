@@ -6,6 +6,8 @@ for (; i < num; i++) {
     newString += string
 }
 
+return newString
+
 };
 
 // Do not edit below this line
