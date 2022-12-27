@@ -2,10 +2,17 @@ const sumAll = function(i,j) {
 
     let sum = 0;
 
+    if (i < 0 || j < 0) {
+        return "ERROR"
+    } else if ( i < j) {
     for (; i <= j; i++) {
         sum += i;
     }
-
+    } else {
+        for (; j <= i; j++) {
+            sum += j;  
+    }
+    }
     return sum
 };
 
