@@ -8,9 +8,9 @@ const sumAll = function(i,j) {
     for (; i <= j; i++) {
         sum += i;
     }
-    } else {
-        for (; j <= i; j++) {
-            sum += j;  
+    } else if ( i > j) {
+    for (; j <= i; j++) {
+        sum += j;  
     }
     }
     return sum
